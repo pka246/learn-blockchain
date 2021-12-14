@@ -54,10 +54,10 @@ class Block {
         return new this({
             timestamp,
             lastHash,
+            hash,
             data,
-            difficulty,
             nonce,
-            hash
+            difficulty
         })
     }
 
